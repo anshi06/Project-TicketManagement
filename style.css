@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .toolbox-cont {
+    height: 5rem;
+    background-color:black;
+    display: flex;
+    align-items: center;
+  }
+  
+  .toolbox-cont > * {
+    margin-left: 4rem;
+  }
+  
+  .toolbox-priority-cont {
+    height: 3.5rem;
+    width: 18rem;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .action-btn-cont{
+    height:3.5rem ;
+    width:8rem ;
+    background-color: whitesmoke;
+    display:flex
+}
+
+.action-btn-cont>*{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    font-size: 2rem;
+    align-items: center;
+
+}
+  
+  .color {
+    height: 1.5rem;
+    width: 3rem;
+  }
+  
+  .lightpink {
+    background-color: rgb(119, 20, 35);
+  }
+  
+  .lightgreen {
+    background-color: rgb(62, 158, 62);
+  }
+  
+  .lightblue {
+    background-color: rgb(26, 87, 107);
+  }
+  
+  .black {
+    background-color: black;
+  }
+
+  .modal-cont{
+    height: 50vh;
+    width: 45vw;
+    background: lightblue;
+    position: absolute;
+    top : 30%;
+    left : 25%;
+    display : none;
+  
+  }
+  
+  
+  .textArea-cont{
+    height: 100%;
+    width: 75%;
+    background-color: #dfe4ea;
+    outline: none;
+    border: none;
+    resize : none;
+    font-size: 2rem;
+    padding: 2rem;
+  }
+
+  .priority-color-container{
+    height: 100%;
+    width:25% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e2cccc
+
+  }
+  .priority-color{
+    height: 3rem;
+    width: 5rem;
+  }
+
+  .main-cont{
+    display:flex;
+    gap:2rem;
+    justify-content: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+  }
+  
+  
+  .ticket-cont{
+    height: 12rem;
+    width: 15rem;
+    background-color:rgb(210, 250, 233);
+  }
+  
+  
+  .ticket-color{
+    height: 1rem;
+  }
+  
+  
+  .ticket-id{
+    background-color: lightseagreen;
+    height: 2rem;
+  }
+
+  .ticket-lock{
+    display:flex;
+    font-size: 1.5rem;
+    justify-content: flex-end;
+    margin-top: 90px;
+    margin-right: 10px;
+  }
+
+  .add-btn:hover{
+    background-color: #4BB543;
+  }
+  
+  
+  .remove-btn:hover{
+    background-color: #f70d1a;
+  }
+  
+  
+  .toolbox-priority-cont>*:hover{
+          background-color: #485460;
+  }
+
+  .active{
+    border: 5px solid rgb(241, 243, 139);
+  }
